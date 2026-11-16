@@ -70,13 +70,12 @@ def forward_search(knowledge, query):
     # Best practice: copy the knowledge base so we don't accidentally modify an input parameter.
     knowledge_base = deepcopy(knowledge)
 
+    # Keep adding new facts until the query is answered or no new facts can be found.
     while True:
-        # step 1: is the query already known?
         result = check_proven(knowledge_base, query)
         if result is not None:
             return result
 
-        # step 2: find new facts
         new_facts = get_inferrable_knowledge(knowledge_base)
         if new_facts == []:
             return None

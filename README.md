@@ -1,3 +1,20 @@
+# Forward Search: Propositional Logic Reasoning
+
+## Structure
+- `main.py`: runs forward search and model checking on five test problems and compares results and run times.
+- `solvers/forward_search.py`: my implementation of forward search (`forward_search`), plus helper functions.
+- `solvers/model_check.py`: the provided model checker (used for comparison).
+- `logic/`: the propositional logic classes (Symbol, Not, And, Or, Implication, Biconditional).
+
+## How to run
+1. Make sure Python 3 is installed.
+2. In the project folder, run:
+   python3 main.py
+
+The script needs no extra arguments or libraries.
+
+---
+
 <h1 align=center><strong>Forward Search Homework</strong></h1>
 
 In this exercise you will implement a Forward Search algorithm and compare it against model checking.
