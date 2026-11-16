@@ -15,7 +15,7 @@ The script needs no extra arguments or libraries.
 
 ---
 
-<h1 align=center><strong>Forward Search Homework</strong></h1>
+<h1><strong>Initial Forward Search Homework</strong></h1>
 
 In this exercise you will implement a Forward Search algorithm and compare it against model checking.
 
