@@ -1,4 +1,4 @@
-# Forward Search: Propositional Logic Reasoning
+# SE_14 - Reasoning: Forward Search
 
 ## Structure
 - `main.py`: runs forward search and model checking on five test problems and compares results and run times.
@@ -15,7 +15,7 @@ The script needs no extra arguments or libraries.
 
 ---
 
-<h1><strong>Initial Forward Search Homework</strong></h1>
+<h1><strong>Original Forward Search Homework README</strong></h1>
 
 In this exercise you will implement a Forward Search algorithm and compare it against model checking.
 
