@@ -10,6 +10,7 @@
 1. Make sure Python 3 is installed.
 2. In the project folder, run:
    python3 main.py
+   (On Windows, use python main.py)
 
 The script needs no extra arguments or libraries.
 
